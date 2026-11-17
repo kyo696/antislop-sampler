@@ -1,0 +1,26 @@
+{
+  "name": "antislop-sampler",
+  "version": "1.0.0",
+  "description": "The AntiSlop sampler uses a backtracking mechanism to go back and retry with adjusted token probabilities when it encounters a disallowed word or phrase. No more testaments or tapestries or other gpt-slop.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyo696/antislop-sampler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyo696/antislop-sampler/issues"
+  },
+  "homepage": "https://github.com/kyo696/antislop-sampler#readme",
+  "dependencies": {
+    "@remotion/cli": "^4.0.544",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.544"
+  }
+}
