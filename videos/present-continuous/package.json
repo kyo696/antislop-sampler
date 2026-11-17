@@ -1,0 +1,23 @@
+{
+  "name": "chat-present-continuous",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node copy-emoji.js",
+    "preview": "remotion studio src/index.js",
+    "render": "remotion render src/index.js Chat out/present_continuous_chat.mp4 --codec=h264 --crf=20"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fontsource/fredoka": "^5.3.0",
+    "@fontsource/inter": "^5.3.0",
+    "@remotion/cli": "^4.0.544",
+    "@twemoji/svg": "^15.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.544"
+  }
+}
